@@ -17,5 +17,5 @@ jobs:
       - uses: gitleaks/gitleaks-action@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITLEAKS_NOTIFY_USER_LIST: @aamirsdev
+          GITLEAKS_NOTIFY_USER_LIST: "@aman-nankani-inno,@rachana-kulkarni-inno"
           GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE}}
